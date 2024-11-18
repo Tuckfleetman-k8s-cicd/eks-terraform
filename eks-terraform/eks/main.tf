@@ -1,5 +1,5 @@
 locals {
-  org = "fleetman"
+  org = "Tuckfleetman-k8s-cicd"
   env = var.env
 }
 
