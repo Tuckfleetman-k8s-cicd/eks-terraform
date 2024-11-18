@@ -6,11 +6,9 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "terraform-state-file-dt"
-    key    = "test/aws_infra"
+    bucket = "truck-fleet-management"
+    key    = "test/aws_infra_EKS"
     region = "us-east-1"
-    dynamodb_table = "terraform-locks"
-    encrypt = true 
   }
 }
 
